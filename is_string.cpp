@@ -17,11 +17,11 @@ vector<string> test(vector<string> colors) {
 }
 
 int main(){
-	  vector<string> has_numbers = {"red", "green23", "1black", "white"};
-	  //vector<string> does_not_have_number = {"red", "green", "black", "white"};
+    vector<string> has_numbers = {"red", "green23", "1black", "white"};
+    //vector<string> does_not_have_number = {"red", "green", "black", "white"};
   
     cout << "Inputs:\n";
-	  for (string c : has_numbers) {
+    for (string c : has_numbers) {
         cout << c << " ";
         vector<string> result = test(has_numbers);
         cout << "\n\nOutput (strings that have numbers):\n";   
